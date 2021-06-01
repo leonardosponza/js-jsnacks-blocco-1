@@ -5,11 +5,13 @@
 // var primalunghezza = seconda.length;
 // var secondalunghezza = prima.length;
 
-// if(prima < seconda){
-//     document.getElementById('nomi').innerHTML = prima + ' ' + seconda;
-// } else if (seconda < prima){
+//  if(primalunghezza === secondalunghezza){
+//      document.getElementById('nomi').innerHTML = prima + ' ' + seconda;
+//  } else if (primalunghezza < secondalunghezza){
+//      document.getElementById('nomi').innerHTML = prima + ' ' + seconda;
+//  } else{
 //     document.getElementById('nomi').innerHTML = seconda + ' ' + prima;
-// }
+//  }
 
 
 // snack2
