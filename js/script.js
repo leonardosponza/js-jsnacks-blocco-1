@@ -37,14 +37,31 @@
 
 // snack3
 
-var array = [];
+// var array = [];
 
-for (var i = 0; i < 6 ; i++) {
-          var numero = parseInt(prompt('inserisci numero'));
-           if(numero % 2 != 0 ){
-              array.push(numero);
-        }     
- }
+// for (var i = 0; i < 6 ; i++) {
+//           var numero = parseInt(prompt('inserisci numero'));
+//            if(numero % 2 != 0 ){
+//               array.push(numero);
+//         }     
+//  }
      
     
- console.log(array);
+//  console.log(array);
+
+// snack4
+
+var invitati = ['paolo','gino','lollo','francesco','laura'];
+
+var utente = prompt('inserisci il tuo nome');
+
+var noninvitato = 'non sei invitato alla festa barbone!!'
+
+for(var i = 0; i < invitati.length; i++) 
+{
+    if(utente == invitati[i]){
+        noninvitato = 'benvenuto alla festa' + utente;
+    }
+    
+}
+document.getElementById('invito').innerHTML = noninvitato
