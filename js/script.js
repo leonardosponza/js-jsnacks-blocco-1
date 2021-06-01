@@ -1,12 +1,12 @@
 // snack1
-var primaparola = prompt ('inserisci testo');
-var secondaparola = prompt ('inserisci testo');
+var prima = prompt ('inserisci testo');
+var seconda = prompt ('inserisci testo');
 
-var primaparola = secondaparola.length;
-var secondaparola = primaparola.length;
+var primalunghezza = seconda.length;
+var secondalunghezza = prima.length;
 
-if(primaparola < secondaparola){
-    document.getElementById('nomi').innerHTML = primaparola + ' ' + secondaparola;
-} else if (secondaparola < primaparola){
-    document.getElementById('nomi').innerHTML = secondaparola + ' ' + primaparola;
+if(prima < seconda){
+    document.getElementById('nomi').innerHTML = prima + ' ' + seconda;
+} else if (seconda < prima){
+    document.getElementById('nomi').innerHTML = seconda + ' ' + prima;
 }
